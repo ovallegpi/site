@@ -1,0 +1,159 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marimba Chapina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0efe8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #116530;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #2d7c4b;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .contenido {
+            padding: 20px;
+            text-align: center;
+        }
+        .galeria img {
+            width: 200px;
+            margin: 10px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #116530;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Marimba Chapina</h1>
+    <p>Promoviendo la música de marimba en Guatemala</p>
+</header>
+
+<nav>
+    <a href="https://es.wikipedia.org/wiki/Marimba">Marimba de Guatemala</a>
+    <a href="https://open.spotify.com/playlist/3vy6GnSpeoCuNwDUhdQqBk">Musica de marimbas</a>
+</nav>
+
+<div class="contenido">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos una empresa orgullosamente guatemalteca dedicada a la promoción, difusión y preservación de la música de marimba. Nuestro objetivo es llevar el sonido nacional a todos los rincones del país y del mundo.</p>
+
+    <h2> <h2>Galería de Marimbas</h2>
+    <div class="galeria">
+        <img src="https://www.guatemala.com/fotos/2019/01/Tardes-de-marimba-en-el-Parque-Central-de-Antigua-Guatemala-885x500.jpg" alt="Marimba 1">
+        <img src="https://www.guatemala.com/fotos/2024/12/Concierto-de-marimba-2024-en-Antigua-Guatemala-885x500.jpg" alt="Marimba 2">
+        <img src="https://previews.123rf.com/images/quasarphoto/quasarphoto1710/quasarphoto171000959/90045419-8-de-fevereiro-de-2015-antigua-guatemala-banda-de-homens-marimba-tocando-em-frente-a-um-edif%C3%ADcio-col.jpg" alt="Marimba 3">
+        <img src="https://i.pinimg.com/736x/24/24/7f/24247f7a879a6838c50b5a04e0f14efc.jpg" alt="Marimba 4">
+        <img src="https://www.guatemala.com/fotos/2024/07/500-anos-de-La-Antigua-con-Festival-de-Marimba-Guatemala-885x500.jpg" alt="Marimba 5">
+    </div>
+
+    <h2>Disfruta una Presentación en Vivo</h2>
+    <div style="text-align:center;">
+        <iframe width="560" height="315" 
+            src="https://youtu.be/GG4iOf6QWk8?feature=shared"
+" 
+            title="Marimba en vivo Guatemala" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Cliente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        form {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            width: 350px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #116530;
+            color: white;
+            border: none;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0d4b25;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Formulario para Futuros Clientes</h2>
+
+<form action="#" method="post">
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="pais">País:</label>
+    <select id="pais" name="pais" required>
+        <option value="">Seleccione un país</option>
+        <option value="Guatemala">Guatemala</option>
+        <option value="El Salvador">El Salvador</option>
+        <option value="Honduras">Honduras</option>
+        <option value="México">México</option>
+        <option value="Otro">Otro</option>
+    </select>
+
+    <label for="pasatiempos">Pasatiempos:</label>
+    <textarea id="pasatiempos" name="pasatiempos" rows="3" placeholder="Ej. Escuchar marimba, bailar, viajar..."></textarea>
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena" required>
+
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
